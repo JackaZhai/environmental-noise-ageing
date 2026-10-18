@@ -104,7 +104,7 @@ Use the reviewed distribution manifest to check or rebuild the release:
 
 ```bash
 python scripts/audit_distribution.py
-python scripts/audit_distribution.py --build ../environmental-noise-ageing_reviewed.zip
+python scripts/audit_distribution.py --build ../environmental-noise-ageing.zip
 ```
 
 The release tool accepts only the files and SHA-256 hashes recorded in `FILE_MANIFEST_SHA256.txt`, checks their allowed paths and formats, and excludes all other local files. Review any content change before updating the manifest. Git ignore rules provide an additional barrier for local data and outputs. Upload the reviewed release contents rather than the wider research workspace.
@@ -119,6 +119,6 @@ The saved prompt is in `config/prompt.txt`. The configuration specifies `DeepSee
 
 Live inference requires explicit selection of `age_inference` together with `--invoke-api`. Default runs use saved age estimates or AgeGaps according to `config/analysis.yaml`.
 
-## Code availability and contact
+## Contact
 
-This version is supplied for editorial assessment and peer review under the accompanying review-only notice. Questions about the study or access to study-specific materials should be directed to the corresponding authors listed in the manuscript.
+For questions about the code, please open a GitHub issue. Questions about the study or access to study-specific materials should be directed to the corresponding authors listed in the manuscript.

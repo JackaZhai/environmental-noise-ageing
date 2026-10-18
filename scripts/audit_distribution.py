@@ -16,7 +16,7 @@ import zipfile
 
 
 TOP_LEVEL = {
-    '.gitignore', 'README.md', 'REVIEW_ONLY_NOTICE.txt', 'pyproject.toml',
+    '.gitignore', 'README.md', 'pyproject.toml',
     'requirements.txt', 'requirements-tested.txt',
 }
 CONFIG = {'analysis.yaml', 'fields.yaml', 'paths.example.yaml', 'prompt.txt'}
