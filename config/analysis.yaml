@@ -1,0 +1,88 @@
+{
+  "systems": [
+    "overall",
+    "cardiovascular",
+    "hepatic",
+    "pulmonary",
+    "renal",
+    "metabolic",
+    "musculoskeletal",
+    "nervous"
+  ],
+  "threshold_db": 60,
+  "input_agegap_state": "residualized",
+  "model_profile": "manuscript",
+  "models": {
+    "Primary": {
+      "numeric": [
+        "chronological_age",
+        "bmi"
+      ],
+      "categorical": [
+        "sex_code",
+        "ethnicity_group",
+        "education_degree",
+        "smoking_status",
+        "alcohol_frequency"
+      ]
+    },
+    "Expanded": {
+      "numeric": [
+        "chronological_age",
+        "bmi",
+        "townsend",
+        "no2_2010",
+        "pm25_2010"
+      ],
+      "categorical": [
+        "sex_code",
+        "ethnicity_group",
+        "education_degree",
+        "smoking_status",
+        "alcohol_frequency"
+      ]
+    }
+  },
+  "spline_df": 4,
+  "ow_bootstrap": 2000,
+  "network_bootstrap": 5000,
+  "seed": 20260905,
+  "jobs": 1,
+  "network_display_delta": 0.015,
+  "partial_correlation_threshold": 0.1,
+  "clinical": {
+    "baseline_column": "53-0.0",
+    "death_columns": [
+      "40000-0.0",
+      "40000-1.0"
+    ],
+    "loss_column": null,
+    "administrative_censor": "2022-12-09",
+    "min_events": 10,
+    "ties": "efron",
+    "ph_backend": "r_survival",
+    "ph_transform": "rank"
+  },
+  "proteomics": {
+    "missing_threshold": 0.3,
+    "min_n": 500,
+    "stratum_min_n": 100,
+    "adjustment": "Expanded"
+  },
+  "inference": {
+    "model": "DeepSeek-V3-0324",
+    "temperature": 0.1,
+    "max_tokens": 2048,
+    "seed": null,
+    "top_p": null,
+    "age_version": "saved-estimates-unspecified",
+    "api_key_env": "LLM_API_KEY",
+    "base_url_env": "LLM_BASE_URL"
+  },
+  "bridge": {
+    "noise_p": 0.05,
+    "agegap_fdr": 0.05,
+    "min_genes": 3,
+    "max_genes": 500
+  }
+}

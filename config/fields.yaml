@@ -1,0 +1,51 @@
+{
+  "id": "eid",
+  "noise": {
+    "Lday": "24020-0.0",
+    "Lnight": "24022-0.0",
+    "Lden": "24024-0.0",
+    "legacy_Lden_alias": "L24h"
+  },
+  "agegap_covariates": {
+    "sex_code": "31-0.0",
+    "bmi": "21001-2.0",
+    "education_code": "6138-2.0",
+    "alcohol_code": "1558-2.0",
+    "smoking_status_code": "20116-0.0",
+    "ethnicity_code": "21000-0.0",
+    "townsend": "22189-0.0",
+    "no2_2010": "24003-0.0",
+    "pm25_2010": "24006-0.0"
+  },
+  "clinical_covariates": {
+    "chronological_age": "21003-0.0",
+    "sex_code": "31-0.0",
+    "bmi": "21001-0.0",
+    "education_code": "6138-0.0",
+    "alcohol_code": "1558-0.0",
+    "smoking_status_code": "20116-0.0",
+    "ethnicity_code": "21000-0.0",
+    "townsend": "22189-0.0",
+    "no2_2010": "24003-0.0",
+    "pm25_2010": "24006-0.0"
+  },
+  "missing_category_codes": [
+    -1,
+    -3
+  ],
+  "education_none_code": -7,
+  "noise_profile_excluded_fields": [
+    "24020",
+    "24021",
+    "24022",
+    "24023",
+    "24024",
+    "Lday",
+    "Lnight",
+    "Lden",
+    "L24h",
+    "L16h",
+    "Levening",
+    "noise_group"
+  ]
+}

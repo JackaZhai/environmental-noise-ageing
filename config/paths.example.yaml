@@ -1,0 +1,16 @@
+{
+  "analysis_input": "../tests/fixtures/participants.csv",
+  "predicted_ages": "../tests/fixtures/ages.csv",
+  "proteins": "../tests/fixtures/proteins.csv",
+  "clinical_noise_input": "../tests/fixtures/clinical_full.csv",
+  "clinical_agegap_input": "../tests/fixtures/clinical_agegap.csv",
+  "endpoints": "../tests/fixtures/endpoints.csv",
+  "protein_mapping": "../tests/fixtures/protein_mapping.csv",
+  "gene_sets": "../tests/fixtures/gene_sets.gmt",
+  "profiles": "../tests/fixtures/profiles.jsonl",
+  "prompt": "prompt.txt",
+  "output_dir": "../results",
+  "existing_results": null,
+  "trait_data": "../tests/fixtures/traits.csv",
+  "trait_specs": "../tests/fixtures/trait_specs.csv"
+}

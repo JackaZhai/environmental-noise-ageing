@@ -1,0 +1,77 @@
+{
+  "eid": "SYNTHETIC_EXAMPLE_02",
+  "chronological_age": 48,
+  "profile": {
+    "chronological_age": 48,
+    "demographics": {
+      "sex": "Female",
+      "ethnicity": "White British",
+      "education": "University degree"
+    },
+    "lifestyle": {
+      "smoking_status": "Never",
+      "alcohol_frequency": "Special occasions only",
+      "physical_activity_minutes_per_week": 240,
+      "sleep_hours_per_night": 7.5
+    },
+    "overall": {
+      "self_rated_health": "Very good",
+      "usual_walking_pace": "Brisk",
+      "activities_of_daily_living_independent": true
+    },
+    "cardiovascular": {
+      "systolic_blood_pressure_mmHg": 116,
+      "diastolic_blood_pressure_mmHg": 72,
+      "total_cholesterol_mmol_L": 4.5,
+      "LDL_cholesterol_mmol_L": 2.4,
+      "HDL_cholesterol_mmol_L": 1.7,
+      "resting_heart_rate_bpm": 62,
+      "hypertension_history": false,
+      "cardiovascular_disease_history": false,
+      "reported_exercise_tolerance": "Good"
+    },
+    "hepatic": {
+      "ALT_U_L": 18,
+      "AST_U_L": 20,
+      "GGT_U_L": 19,
+      "albumin_g_L": 45,
+      "bilirubin_umol_L": 9,
+      "liver_disease_history": false
+    },
+    "pulmonary": {
+      "FEV1_L": 2.8,
+      "FVC_L": 3.5,
+      "FEV1_FVC_ratio": 0.8,
+      "respiratory_symptoms": false,
+      "chronic_respiratory_disease_history": false,
+      "functional_limitation": "Mild breathlessness only during strenuous exercise"
+    },
+    "renal": {
+      "creatinine_umol_L": 64,
+      "estimated_GFR_mL_min_1_73m2": 102,
+      "urine_albumin_creatinine_ratio_mg_mmol": 0.7,
+      "chronic_kidney_disease_history": false
+    },
+    "metabolic": {
+      "BMI_kg_m2": 22.8,
+      "waist_circumference_cm": 75,
+      "HbA1c_mmol_mol": 33,
+      "triglycerides_mmol_L": 0.9,
+      "diabetes_history": false
+    },
+    "musculoskeletal": {
+      "grip_strength_kg": 29,
+      "joint_symptoms": "None",
+      "mobility_limitations": "None",
+      "fracture_history": false
+    },
+    "nervous": {
+      "reaction_time_ms": 510,
+      "fluid_intelligence_score": 10,
+      "brain_imaging_available": true,
+      "brain_imaging_summary": "No reported major structural abnormality",
+      "neurological_disease_history": false,
+      "cognitive_symptoms": "None reported"
+    }
+  }
+}

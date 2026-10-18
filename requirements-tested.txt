@@ -1,0 +1,11 @@
+# Verified on macOS arm64 with Python 3.11.15 on 2026-10-18.
+# Direct dependency versions; package metadata retains supported ranges.
+numpy==2.4.6
+pandas==2.3.3
+scipy==1.17.1
+statsmodels==0.14.6
+patsy==1.0.3
+matplotlib==3.11.2
+PyYAML==6.0.3
+openai==3.35.1
+pytest==9.1.1

@@ -1,0 +1,78 @@
+{
+  "eid": "SYNTHETIC_EXAMPLE_03",
+  "chronological_age": 70,
+  "profile": {
+    "chronological_age": 70,
+    "demographics": {
+      "sex": "Male",
+      "ethnicity": "White British",
+      "education": "Secondary education"
+    },
+    "lifestyle": {
+      "smoking_status": "Previous",
+      "alcohol_frequency": "One to three times per month",
+      "physical_activity_minutes_per_week": 60,
+      "sleep_hours_per_night": 6.5
+    },
+    "overall": {
+      "self_rated_health": "Fair",
+      "usual_walking_pace": "Slow",
+      "activities_of_daily_living_independent": true
+    },
+    "cardiovascular": {
+      "systolic_blood_pressure_mmHg": 154,
+      "diastolic_blood_pressure_mmHg": 90,
+      "total_cholesterol_mmol_L": 5.9,
+      "LDL_cholesterol_mmol_L": 3.8,
+      "HDL_cholesterol_mmol_L": 1.0,
+      "resting_heart_rate_bpm": 82,
+      "hypertension_history": true,
+      "cardiovascular_disease_history": true,
+      "reported_exercise_tolerance": "Reduced"
+    },
+    "hepatic": {
+      "ALT_U_L": 43,
+      "AST_U_L": 37,
+      "GGT_U_L": 61,
+      "albumin_g_L": 40,
+      "bilirubin_umol_L": 14,
+      "liver_disease_history": false,
+      "advanced_liver_disease_history": false
+    },
+    "pulmonary": {
+      "FEV1_L": 2.0,
+      "FVC_L": 3.1,
+      "FEV1_FVC_ratio": 0.65,
+      "respiratory_symptoms": true,
+      "chronic_respiratory_disease_history": true,
+      "functional_limitation": "Breathlessness during ordinary exertion"
+    },
+    "renal": {
+      "creatinine_umol_L": 128,
+      "estimated_GFR_mL_min_1_73m2": 49,
+      "urine_albumin_creatinine_ratio_mg_mmol": 12.0,
+      "chronic_kidney_disease_history": true
+    },
+    "metabolic": {
+      "BMI_kg_m2": 31.4,
+      "waist_circumference_cm": 111,
+      "HbA1c_mmol_mol": 59,
+      "triglycerides_mmol_L": 2.3,
+      "diabetes_history": true
+    },
+    "musculoskeletal": {
+      "grip_strength_kg": 25,
+      "joint_symptoms": "Knee and hip discomfort",
+      "mobility_limitations": "Reduced walking distance",
+      "fracture_history": false
+    },
+    "nervous": {
+      "reaction_time_ms": 570,
+      "fluid_intelligence_score": 8,
+      "brain_imaging_available": true,
+      "brain_imaging_summary": "No reported major structural abnormality",
+      "neurological_disease_history": false,
+      "cognitive_symptoms": "No substantial decline reported"
+    }
+  }
+}

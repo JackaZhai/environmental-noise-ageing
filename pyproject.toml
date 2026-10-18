@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "noise-agegap"
+version = "0.1.0"
+description = "Modular residential-noise AgeGap analysis with provenance"
+requires-python = ">=3.9"
+dependencies = ["numpy>=1.24", "pandas>=2,<3", "scipy>=1.10", "statsmodels>=0.14,<0.15", "patsy>=0.5", "matplotlib>=3.7"]
+[project.optional-dependencies]
+inference = ["openai>=1"]
+yaml = ["PyYAML>=6"]
+test = ["pytest>=7"]
+[project.scripts]
+noise-agegap = "noise_agegap_pipeline.cli:main"
+[tool.setuptools.packages.find]
+where = ["src"]
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

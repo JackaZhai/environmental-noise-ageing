@@ -1,0 +1,18 @@
+{
+  "inference process - Overall": "In this fictional example, adverse cardiovascular, renal, and metabolic indicators raise the overall estimate above the chronological reference. Relatively preserved nervous-system measurements reduce the aggregate shift.",
+  "Overall": 74,
+  "inference process - Cardiovascular": "The fictional profile combines established cardiovascular disease with adverse blood-pressure and lipid indicators, supporting an older cardiovascular estimate.",
+  "Cardiovascular": 78,
+  "inference process - Hepatic": "Mild fictional hepatic abnormalities support a limited upward shift. The absence of stated advanced liver disease constrains the hepatic estimate.",
+  "Hepatic": 72,
+  "inference process - Pulmonary": "Reduced fictional spirometry and respiratory limitations support an older pulmonary estimate.",
+  "Pulmonary": 75,
+  "inference process - Renal": "Reduced fictional filtration and increased albuminuria support a renal estimate above the chronological reference.",
+  "Renal": 77,
+  "inference process - Metabolic": "The fictional profile combines diabetes and adverse adiposity measures, supporting an older metabolic estimate.",
+  "Metabolic": 76,
+  "inference process - Musculoskeletal": "Reduced fictional strength and mobility support a moderately older musculoskeletal estimate.",
+  "Musculoskeletal": 73,
+  "inference process - Nervous": "Relatively preserved fictional cognitive measurements, compared with the adverse pattern in other systems, support a smaller nervous-system age shift.",
+  "Nervous": 71
+}

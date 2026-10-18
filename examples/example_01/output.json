@@ -1,0 +1,18 @@
+{
+  "inference process - Overall": "In this fictional example, mildly elevated cardiometabolic burden shifts the overall age estimate above the chronological reference, while preserved renal and hepatic function limit the increase.",
+  "Overall": 58,
+  "inference process - Cardiovascular": "The fictional combination of elevated blood pressure and less favorable lipid measurements supports a cardiovascular estimate above the chronological reference. Preserved reported exercise tolerance limits the shift.",
+  "Cardiovascular": 62,
+  "inference process - Hepatic": "The fictional liver measurements are within the stated reference range, with no reported liver disease. This supports a hepatic estimate close to the chronological reference.",
+  "Hepatic": 56,
+  "inference process - Pulmonary": "Preserved fictional spirometry and the absence of reported respiratory symptoms support a pulmonary estimate near the chronological reference.",
+  "Pulmonary": 57,
+  "inference process - Renal": "Preserved fictional filtration measures and the absence of substantial albuminuria support a renal estimate slightly below the chronological reference.",
+  "Renal": 55,
+  "inference process - Metabolic": "The fictional combination of increased adiposity and mildly adverse glycemic measurements supports an older metabolic estimate.",
+  "Metabolic": 61,
+  "inference process - Musculoskeletal": "Mildly reduced fictional grip strength and reported joint symptoms support a small upward shift in musculoskeletal age.",
+  "Musculoskeletal": 59,
+  "inference process - Nervous": "The fictional cognitive and neurological indicators do not show a marked adverse pattern. The nervous-system estimate remains near the chronological reference.",
+  "Nervous": 57
+}

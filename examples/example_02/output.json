@@ -1,0 +1,18 @@
+{
+  "inference process - Overall": "In this fictional example, broadly favorable functional and biomarker measurements support an overall estimate slightly below the chronological reference. No single system has a large adverse shift.",
+  "Overall": 46,
+  "inference process - Cardiovascular": "The fictional blood pressure and lipid pattern is favorable, without reported cardiovascular disease. This supports a relatively low cardiovascular estimate.",
+  "Cardiovascular": 45,
+  "inference process - Hepatic": "Normal fictional hepatic measurements and the absence of reported liver disease support a hepatic estimate below the chronological reference.",
+  "Hepatic": 44,
+  "inference process - Pulmonary": "The fictional pulmonary measurements are broadly preserved, with a modest functional limitation. The pulmonary estimate remains close to the chronological reference.",
+  "Pulmonary": 47,
+  "inference process - Renal": "The fictional kidney measurements indicate preserved filtration and low albuminuria. This supports a lower renal estimate.",
+  "Renal": 43,
+  "inference process - Metabolic": "The fictional adiposity and glycemic measurements are favorable. The metabolic estimate is slightly below the chronological reference.",
+  "Metabolic": 45,
+  "inference process - Musculoskeletal": "Favorable fictional grip strength and physical function support a lower musculoskeletal estimate.",
+  "Musculoskeletal": 44,
+  "inference process - Nervous": "The fictional cognitive indicators are broadly preserved, with no reported neurological disorder. The estimate remains close to the chronological reference.",
+  "Nervous": 46
+}

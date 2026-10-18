@@ -1,0 +1,38 @@
+kind,name,source_path,output_path,scope
+module,data_preparation,src/noise_agegap_pipeline/data_preparation/cohorts.py,data_preparation/,Pipeline implementation
+module,age_inference,src/noise_agegap_pipeline/age_inference/inference.py,age_inference/,Pipeline implementation
+module,agegap_phenotyping,src/noise_agegap_pipeline/agegap_phenotyping/phenotypes.py,agegap_phenotyping/,Pipeline implementation
+module,noise_agegap,src/noise_agegap_pipeline/noise_agegap/models.py,noise_agegap/,Pipeline implementation
+module,robustness,src/noise_agegap_pipeline/robustness/run.py,robustness/,Pipeline implementation
+module,correlation_structure,src/noise_agegap_pipeline/correlation_structure/structure.py,correlation_structure/,Pipeline implementation
+module,clinical_outcomes,src/noise_agegap_pipeline/clinical_outcomes/run.py,clinical_outcomes/,Pipeline implementation
+module,proteomics,src/noise_agegap_pipeline/proteomics/run.py,proteomics/,Pipeline implementation
+module,bridge_enrichment,src/noise_agegap_pipeline/bridge_enrichment/bridge.py,bridge_enrichment/,Pipeline implementation
+module,reporting,src/noise_agegap_pipeline/reporting/export.py,reporting/,Pipeline implementation
+script,check_real_legacy_parity,scripts/check_real_legacy_parity.py,,Command-line helper
+script,cox_ph,scripts/cox_ph.R,,Command-line helper
+script,enrich_storey,scripts/enrich_storey.R,,Command-line helper
+script,make_synthetic_test_data,scripts/make_synthetic_test_data.py,,Command-line helper
+script,run_pipeline,scripts/run_pipeline.py,,Command-line helper
+script,audit_distribution,scripts/audit_distribution.py,,Manifest-controlled code-only release check and packaging
+aggregate_export,Table1_baseline.csv,src/noise_agegap_pipeline/reporting/export.py,data_preparation/baseline.csv,Configured export filename; manuscript panel correspondence requires author review
+aggregate_export,cohort_flow.csv,src/noise_agegap_pipeline/reporting/export.py,data_preparation/cohort_flow.csv,Configured export filename; manuscript panel correspondence requires author review
+aggregate_export,Supplementary_trait_associations.csv,src/noise_agegap_pipeline/reporting/export.py,agegap_phenotyping/trait_associations.csv,Configured export filename; manuscript panel correspondence requires author review
+aggregate_export,Figure2_phenotype_summary.csv,src/noise_agegap_pipeline/reporting/export.py,agegap_phenotyping/phenotype_summary.csv,Configured export filename; manuscript panel correspondence requires author review
+aggregate_export,Figure3_agegap_contrasts.csv,src/noise_agegap_pipeline/reporting/export.py,noise_agegap/contrasts.csv,Configured export filename; manuscript panel correspondence requires author review
+aggregate_export,Supplementary_spline_curves.csv,src/noise_agegap_pipeline/reporting/export.py,noise_agegap/spline_curves.csv,Configured export filename; manuscript panel correspondence requires author review
+aggregate_export,Supplementary_spline_tests.csv,src/noise_agegap_pipeline/reporting/export.py,noise_agegap/spline_tests.csv,Configured export filename; manuscript panel correspondence requires author review
+aggregate_export,Supplementary_overlap_effects.csv,src/noise_agegap_pipeline/reporting/export.py,robustness/overlap_effects.csv,Configured export filename; manuscript panel correspondence requires author review
+aggregate_export,Supplementary_overlap_balance.csv,src/noise_agegap_pipeline/reporting/export.py,robustness/overlap_balance.csv,Configured export filename; manuscript panel correspondence requires author review
+aggregate_export,Supplementary_interactions.csv,src/noise_agegap_pipeline/reporting/export.py,robustness/pollutant_interactions.csv,Configured export filename; manuscript panel correspondence requires author review
+aggregate_export,Supplementary_MDE.csv,src/noise_agegap_pipeline/reporting/export.py,robustness/main_effect_mde.csv,Configured export filename; manuscript panel correspondence requires author review
+aggregate_export,Figure3_delta_correlations.csv,src/noise_agegap_pipeline/reporting/export.py,correlation_structure/delta_correlations.csv,Configured export filename; manuscript panel correspondence requires author review
+aggregate_export,Supplementary_partial_correlations.csv,src/noise_agegap_pipeline/reporting/export.py,correlation_structure/partial_correlations.csv,Configured export filename; manuscript panel correspondence requires author review
+aggregate_export,Supplementary_PCA_variance.csv,src/noise_agegap_pipeline/reporting/export.py,correlation_structure/pca_variance.csv,Configured export filename; manuscript panel correspondence requires author review
+aggregate_export,Figure4_noise_cox.csv,src/noise_agegap_pipeline/reporting/export.py,clinical_outcomes/noise_cox.csv,Configured export filename; manuscript panel correspondence requires author review
+aggregate_export,Supplementary_agegap_cox.csv,src/noise_agegap_pipeline/reporting/export.py,clinical_outcomes/agegap_cox.csv,Configured export filename; manuscript panel correspondence requires author review
+aggregate_export,Figure5_protein_agegap.csv,src/noise_agegap_pipeline/reporting/export.py,proteomics/protein_agegap.csv,Configured export filename; manuscript panel correspondence requires author review
+aggregate_export,Figure5_noise_protein.csv,src/noise_agegap_pipeline/reporting/export.py,proteomics/noise_protein.csv,Configured export filename; manuscript panel correspondence requires author review
+aggregate_export,Supplementary_stratified_proteomics.csv,src/noise_agegap_pipeline/reporting/export.py,proteomics/stratified_protein_agegap.csv,Configured export filename; manuscript panel correspondence requires author review
+aggregate_export,Figure5_bridge_candidates.csv,src/noise_agegap_pipeline/reporting/export.py,bridge_enrichment/bridge_candidates.csv,Configured export filename; manuscript panel correspondence requires author review
+aggregate_export,Figure5_enrichment_storey.csv,src/noise_agegap_pipeline/reporting/export.py,bridge_enrichment/enrichment_storey.csv,Configured export filename; manuscript panel correspondence requires author review
