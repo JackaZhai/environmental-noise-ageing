@@ -1,9 +1,5 @@
 # Environmental noise and biological ageing
 
-Code accompanying the manuscript **“Residential road traffic noise is associated with selective patterns of multi-organ biological ageing.”**
-
-This repository contains the code package prepared for confidential editorial assessment and peer review. See [REVIEW_ONLY_NOTICE.txt](REVIEW_ONLY_NOTICE.txt) for the current terms of use.
-
 ## Abstract
 
 Road traffic noise is associated with chronic disease, but whether its relationship with biological ageing differs across physiological systems remains unclear. In 50,627 UK Biobank participants, we examined residential road traffic noise in relation to overall and seven system-specific biological-age gaps (AgeGaps) derived using a large language model framework. Associations were system selective rather than uniform. Cardiovascular AgeGap was higher among participants with daytime and nighttime noise levels ≥60 dB than among those with both levels <60 dB, persisting after adjustment for neighbourhood deprivation and air pollution (β = 0.367 years, 95% CI 0.141–0.593; Bonferroni-adjusted *P* = 0.012), whereas broader associations were attenuated. Noise profiles were also associated with selected incident diseases. Proteomics revealed system-specific AgeGap correlates but no significant direct noise signature. These findings identify cardiovascular biological-age variation as the most robust system-specific correlate of residential road traffic noise, highlighting heterogeneous physiological ageing in relation to environmental exposure.
